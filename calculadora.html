@@ -4,54 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <style>
-        .calculator{
-            background-color: rgb(49, 49, 49);
-            margin-left: 450px;
-            margin-right: 450px;
-            padding: 2%;
-        }
-
-        .container{
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-         /*   padding: 2%;*/
-        }
-    </style>
+    <link rel="stylesheet" href="css/calculator.css">
 </head>
 <body>
     <div class="calculator">
+        
         <div class="container">
-        <input type="text" placeholder="0">
-        <div>
-            <button type="button">C</button>
-            <button type="button">/</button>
-            <button type="button">X</button>
-        </div>
-        <div>
-            <button type="button">7</button>
-            <button type="button">8</button>
-            <button type="button">9</button>
-            <button type="button">-</button>
-        </div>
-        <div>
-            <button type="button">4</button>
-            <button type="button">5</button>
-            <button type="button">6</button>
-            <button type="button">+</button>
-        </div>
-        <div>
-            <button type="button">1</button>
-            <button type="button">2</button>
-            <button type="button">3</button>
-        </div>
-        <div>
-            <button type="button">0</button>
-            <button type="button">.</button>
-            <button type="button">=</button>
-        </div>
+            <input type="text" placeholder="0" class="inputResult">
+            <div>
+                <button type="button" id="buttonC" class="buttonBigger">C</button>
+                <button type="button" class="buttonNumber">/</button>
+            </div>
+            <div>
+                <button type="button" class="buttonNumber">7</button>
+                <button type="button" class="buttonNumber">8</button>
+                <button type="button" class="buttonNumber">9</button>
+            </div>
+            <div>
+                <button type="button" class="buttonNumber">4</button>
+                <button type="button" class="buttonNumber">5</button>
+                <button type="button" class="buttonNumber">6</button>
+            </div>
+            <div>
+                <button type="button" class="buttonNumber">1</button>
+                <button type="button" class="buttonNumber">2</button>
+                <button type="button" class="buttonNumber">3</button>
+            </div>
+            <div>
+                <button type="button" id="buttonZero" class="buttonBigger">0</button>
+                <button type="button" id="buttonPoint" class="buttonNumber">.</button>
+            </div>
+    </div>
+    <div class="operations">
+        <button type="button" class="buttonNumber">X</button>
+        <button type="button" class="buttonNumber">-</button>
+        <button type="button" class="buttonNumber">+</button>
+        <button type="button" class = "buttonEqual btnBottom">=</button>
     </div>
 </div>
 </body>

@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+.calculator{
+    background-color: rgb(29, 28, 28);
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 2%;
+    margin-left: 20px;
+    display: flex;
+}
+
+.buttonNumber{
+    padding: 12px 25px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: 1px 1px black 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.buttonBigger{
+    padding: 12px 62px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: 1px 1px black 5px;
+    border-radius: 5px;
+}
+
+.buttonEqual{   
+    background-color: rgb(65, 64, 64);
+    color: white;
+    box-shadow: 1px 1px black 5px;
+    padding: 53% 17%;
+    margin-left: 5px;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+   margin-top: 72px;
+}
+
+#buttonZero{
+    margin-left: 1.7    px;
+}
+
+#buttonPoint{
+    margin-left: 6.8px;
+}
+
+#buttonC{
+    margin-left: 3px;
+}
+
+button{
+    margin: 3px;
+}
+
+.inputResult{
+    padding: 18px 25px;
+    margin-bottom: 10px;
+    margin-left: 20px
+}
